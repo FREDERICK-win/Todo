@@ -15,7 +15,7 @@
           <button class="btn waves-effect col s12">Add</button>
         </form>
       </div>
-      <div class="row">
+      <div v-if="todos.length !== 0" class="row">
         <ul class="collection col s6 offset-s3">
           <li
             class="collection-item grey darken-4"
